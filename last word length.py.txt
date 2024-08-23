@@ -1,0 +1,5 @@
+
+s = "
+lw = s.split(' ')
+lw_length = lw[-1]
+return lw_length
