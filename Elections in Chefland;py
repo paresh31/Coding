@@ -1,0 +1,8 @@
+n = 5
+x= 3
+ages = list(map(int, input().split()))
+c = 0
+for age in ages:
+    if age >= x:
+        c += 1
+print(c)
